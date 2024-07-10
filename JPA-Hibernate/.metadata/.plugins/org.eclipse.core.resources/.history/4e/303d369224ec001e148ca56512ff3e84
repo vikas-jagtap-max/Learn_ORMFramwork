@@ -1,0 +1,12 @@
+package Multithreading;
+
+public class MainThread {
+
+	public static void main(String[] args) {
+		MyThread t1 = new MyThread();
+		HerThread t2 = new HerThread();
+		
+		t1.start
+	}
+
+}

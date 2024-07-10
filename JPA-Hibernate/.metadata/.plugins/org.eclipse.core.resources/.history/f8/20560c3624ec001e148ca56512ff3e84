@@ -1,0 +1,10 @@
+package Multithreading;
+
+public class HerThread extends Thread{
+	int a;
+	int b;
+	@Override
+	public void run() {
+		
+	}
+}

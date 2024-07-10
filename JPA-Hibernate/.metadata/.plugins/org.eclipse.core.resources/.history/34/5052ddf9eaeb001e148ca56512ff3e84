@@ -1,0 +1,5 @@
+##To change the HTTP Port of Embedded Tomcat Server
+#server.port=8095
+
+##We can configure all our web application properties by our own.
+#spring.main.web-application-type=none

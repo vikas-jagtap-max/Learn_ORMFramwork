@@ -1,0 +1,11 @@
+package sample;
+
+//input : 23 -45 -23 56 -10 44 -20 8 6 2
+//output : -45 -23 -10 -20 23 56 44 8 6 2
+public class Pattern {
+
+	int arr[] = {23, -45, -23, 56, -10, 44, -20, 8, 6, 2};
+
+	for(int i:)
+
+}

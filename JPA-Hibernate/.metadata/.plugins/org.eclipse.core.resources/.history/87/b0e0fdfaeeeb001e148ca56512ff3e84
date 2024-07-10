@@ -1,0 +1,20 @@
+package com.layer.api;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/student")
+public class StudentRestController {
+
+	@Value("$(custom.value)")
+	private String customVal;
+
+	@GetMapping("/students")
+	public void allStudents() {
+		System.out.println("Accessing Custom properties from appliction.properties file : " + customVal);
+	}
+
+}

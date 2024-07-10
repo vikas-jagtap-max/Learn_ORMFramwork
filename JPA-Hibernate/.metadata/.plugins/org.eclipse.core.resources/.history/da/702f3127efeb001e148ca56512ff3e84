@@ -1,0 +1,14 @@
+package com.layer.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class StudentController {
+
+	//
+	@ResponseBody
+	public String test() {
+		return "Spring 3.0 introduced @ResponseBody annotation. So, the methods of MVC controllers that are annotated with @ResponseBody tells the DispatcherServlet that the result of method execution need not to be mapped with a view. @ResponseBody annotation automatically converts the response to a JSON string literal by applying serialization on the return value of the method.";
+	}
+}
